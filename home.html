@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="mockup-phone">
+    <div class="camera"></div>
+    <div class="display">
+      <div class="artboard artboard-demo phone-3">
+
+        <div id="header" class="flex justify-between align-middle items-center w-full px-6">
+
+          <div>
+            <h1 id="defoult-amount" class="text-3xl font-bold text-black">2690</h1>
+            <p>banlance abbhdjf</p>
+          </div>
+          <div>
+            <button>Logout</button>
+          </div>
+        </div>
+
+        <div id="title" class="pt-4 px-6">
+          <h1 class="text-2xl">Welcome to Payooo!</h1>
+          <p class="text-sm">Enjoy easy and convenient financial services with us. Cashout charge is low </p>
+        </div>
+
+        <div id="paymnetway" class="grid grid-cols-2 w-full gap-4 mt-6">
+          <button id="AddMoney">Add Money</button>
+          <button>Cashout</button>
+          <button>Transfer Money</button>
+          <button>Get Bonus</button>
+          <button>Pay Bill</button>
+          <button>Transactions</button>
+        </div>
+
+
+        <!-- form start -->
+
+        <div id="login-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-7">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Amount</span>
+              </label>
+              <input id="admoneyamount-button" type="number" placeholder="amount" class="input input-bordered"
+                required />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Pin code</span>
+              </label>
+              <input id="adpincode-button" type="password" placeholder="pin code" class="input input-bordered"
+                required />
+
+            </div>
+            <div class="form-control mt-6">
+              <button id="add-btn" class="btn btn-primary">Add Money</button>
+            </div>
+          </form>
+        </div>
+
+
+        <!-- form 2 cashout start -->
+
+        <div id="cashout-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-7 ">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Amount</span>
+              </label>
+              <input id="cashoutamount-button" type="number" placeholder="amount" class="input input-bordered"
+                required />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Pin code</span>
+              </label>
+              <input id="cashoutpincode-button" type="password" placeholder="pin code" class="input input-bordered"
+                required />
+
+            </div>
+            <div class="form-control mt-6">
+              <button id="cashout-btn" class="btn btn-primary">Cashout</button>
+            </div>
+          </form>
+        </div>
+
+
+        <!-- end/...................... -->
+      </div>
+    </div>
+  </div>
+
+  <script src="laybery.js"></script>
+  <script src="programing.js"></script>
+</body>
+
+</html>
